@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+.content-wrapper {
+    height: calc(100% - 105px);
+    margin-top: -19px;
+    -webkit-box-shadow: inset 0px 19px 22px -23px #000000; 
+    box-shadow: inset 0px 19px 22px -23px #000000;
+}
+
+.content-wrapper > p {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.2em;
+}
